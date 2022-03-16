@@ -3,7 +3,7 @@ from pytube import YouTube
 from io import BytesIO
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = "a86102f71ec0795b524a5c5773cbb2fe33446e609f8e2cde29c969072fd2"
+app.config['SECRET_KEY'] = "654c0fb3968af9d5e6a9b3edcbc7051b"
 
 @app.route("/", methods = ["GET", "POST"])
 def home():
